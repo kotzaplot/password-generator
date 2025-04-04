@@ -75,7 +75,7 @@ header h1:hover {
     color: lightgreen;
     margin: 0 10px;
     font-size: 20px;
-    
+
     text-align: center;
     transition: 0.4s;
 }
@@ -359,6 +359,12 @@ footer p {
         user-select: all;
     }
 
+    #sug {
+        display: block;
+        justify-content: space-around;
+        margin: 50px;
+    }
+
     footer {
         display: flex;
         text-align: center;
@@ -374,7 +380,7 @@ footer p {
 
     #social {
         font-size: 20px;
-        
+
         text-align: left;
         padding-top: 0;
         margin: -20px -30px;
@@ -417,6 +423,13 @@ footer p {
         font-size: 60px;
     }
 
+    #sug {
+        display: block;
+        justify-content: space-around;
+        margin: 50px;
+
+    }
+
     #suggestion,
     #suggestionSecond {
         width: 90%;
@@ -437,8 +450,8 @@ footer p {
 
     #social {
         font-size: 20px;
-        
-        
+
+
         text-align: left;
         padding-top: 0;
         margin: -40px -50px;
@@ -512,8 +525,8 @@ footer p {
 
     #social {
         font-size: 20px;
-        
-       
+
+
         text-align: left;
         padding-top: 0;
         margin: -40px -50px;
