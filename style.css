@@ -325,6 +325,9 @@ footer p {
 }
 
 @media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         flex-wrap: wrap;
         justify-content: center;
@@ -393,6 +396,9 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         padding: 30px;
         flex-direction: column;
@@ -471,6 +477,9 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         padding: 20px;
     }
