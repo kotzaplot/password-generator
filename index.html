@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/code.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <section class="make">
+            <h1>Make your unique password!</h1>
+        </section>
+        <section class="loger">
+            <ol>
+                <li><button id="login"><a href="http://" target="_blank">LOG IN</a></button></li>
+                <li><button id="register"><a href="http://" target="_blank">REGISTER</a></button></li>
+            </ol>
+        </section>
+    </header>
+    <main>
+        <section class="title">
+            <div id="secTitle">
+                <h2>Generate a</h2>
+                <h2 class="green">random password</h2>
+            </div>
+            <p class="never">Never use an insecure password again.</p>
+            <button id="generateButton" onclick="generate()">Generate passwords</button> <br>
+            <p class="choose">choose length between 15 to 50: </p>
+            <input type="number" name="length" id="length" min="10" max="50" placeholder="length">
+            <div id="sug">
+                <p id="suggestion" onclick="copy()"></p>
+                <p id="suggestionSecond" onclick="secondCopy()"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="left">
+            <ol id="socials">
+                <div id="social">
+                    <li class="social">Social Media:</li>
+                    <div id="images">
+                        <li>Instagram <a href="#" target="_self"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li>LinkedIn<a href="#" target="_self"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li>GitHub<a href="https://github.com/kotzaplot" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </div>
+                </div>
+            </ol>
+        </section>
+        <section class="right">
+            <p id="thanks">Thanks for looking here and use it however you like!</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cce9807892.js" crossorigin="anonymous"></script>
+</body>
+</html>
