@@ -1,0 +1,1 @@
+as i promised i drop another website today which is generating the random password, i know this website is still not as good as it can but i'm doing my best sooo im gonna push more and more to be better and better, wish me luck!
